@@ -3,5 +3,8 @@
   "type": "docker",
   "features": {
     "cloud": "v2"
+  },
+  "env": {
+    "NOW_TOKEN": "@now-token"
   }
 }

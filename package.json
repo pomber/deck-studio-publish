@@ -4,6 +4,8 @@
     "start": "micro"
   },
   "dependencies": {
-    "micro": "^9.3.3"
+    "dotenv": "^6.0.0",
+    "micro": "^9.3.3",
+    "node-fetch": "^2.2.0"
   }
 }
