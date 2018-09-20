@@ -1,4 +1,5 @@
 {
+  "alias": "deck-studio-publish.now.sh",
   "public": true,
   "type": "docker",
   "features": {
