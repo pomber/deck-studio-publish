@@ -46,11 +46,8 @@ module.exports = async (req, res) => {
   const deployment = await response.json();
   console.log(deployment);
 
-  if (process.env.NODE_ENV === "production") {
-    res.setHeader("Access-Control-Allow-Origin", "https://deck-studio.now.sh");
-  } else {
-    res.setHeader("Access-Control-Allow-Origin", "*");
-  }
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  
 
   return "https://" + deployment.url;
 };
