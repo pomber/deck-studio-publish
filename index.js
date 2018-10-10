@@ -4,8 +4,8 @@ const { json } = require("micro");
 
 const packagejson = `{
   "dependencies": {
-    "mdx-deck": "^1.7.4",
-    "mdx-deck-code-surfer": "^0.4.1"
+    "mdx-deck": "latest",
+    "mdx-deck-code-surfer": "latest"
   }
 }`;
 
